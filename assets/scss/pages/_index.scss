@@ -1,0 +1,25 @@
+.avatar{
+  width: 40px;
+  height: 40px;
+}
+
+.main{
+  width: calc(100% - 296px);
+  margin-left: auto;
+}
+
+.fs-12px{
+  font-size: 12px;
+}
+
+.fs-14px{
+  font-size: 14px;
+}
+
+.reply-text-area{
+  height: 200px;
+}
+
+.dropdown-material-symbols::after{
+  display: none;
+}

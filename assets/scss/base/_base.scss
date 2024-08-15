@@ -1,0 +1,36 @@
+body{
+    font-family: "Lato", sans-serif;
+    line-height: 1.5;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+}
+
+code{
+    font-family: "Roboto Mono", monospace;
+    color: $success;
+    background-color: $gray-100;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    margin-bottom: 0;
+}
+
+.material-symbols-filled{
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+}
+
+td, th{
+    vertical-align: middle;
+}
+
+.hover-success:hover{
+    color: $success;
+}
